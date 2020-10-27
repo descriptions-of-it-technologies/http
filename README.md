@@ -37,6 +37,7 @@
 
 
 ## Documentation.
+* [HTTP Methods.](https://restfulapi.net/http-methods/)
 
 
 
