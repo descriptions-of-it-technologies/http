@@ -24,6 +24,7 @@
 * [HTTP Method PUT.](#http-method-put)
 * [HTTP Method POST.](#http-method-post)
 * [HTTP Method DELETE.](#http-method-delete)
+* [HTTP History.](#http-history)
 * [Help](#help)
 
 
@@ -142,7 +143,7 @@
 ## HTTP Method PUT.
 * Use: to insert (if not found) or update (if found).
 * Idempotent - Multiple PUTs will not change result.
-* Like saving a file multiple times.
+  * Like saving a file multiple times.
 * Not Safe operation - does change state of resource.
 
 
@@ -163,6 +164,38 @@
 * Use: to delete an object (resource).
 * Idempotent - Multiple DELETEs will have same effects/behaviour.
 * Not Safe operation - does change state of resource.
+
+
+
+
+
+## HTTP History.
+* Development of HTTP was started by Tim Berners-Lee of CERN in 1989
+* HTTP/0.9 is the Original HTTP proposal by Tim Berners-Lee
+* Started as a telnet friendly protocol 
+
+* HTTP/1.0 - From 1991 to 1995 the HTTP/HTML specifications grew rapidly
+* New software known as a “web browser” emerged
+* HTTP standards were developed by:
+  * IETF - Internet Enginering Task Force
+  * W3C - World Wide Web Consortium
+
+* HTTP/1.1 - Originally released in 1997
+* Solved a lot of ambiguities from earlier versions
+* Added support for keep alive connections, chunked encoding transfers, byte-range requests, transfer encodings, and request pipelining
+* HTTP/1.1 - Updated by RFC 2616 in 1999
+* Updated again by RFC 7230 in 2014
+* Still in use today
+
+* HTTP/2.0 Standardized in 2015
+* Supported by most servers and browsers by the end of 2015
+* As of May 2017, only 13.7% of the top 10 Million websites supported HTTP/2.0
+* Has high level of compatibility with HTTP/1.1
+* Transport Performance was a focus of HTTP/2.0
+* Improves page load speed by:
+* Lower Latency
+* Higher Throughput
+* Differences from HTTP/1.1 are largely transparent for web developers
 
 
 
