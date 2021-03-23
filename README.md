@@ -50,9 +50,9 @@
 * GET - is used when you visit a website.
 * HEAD - is like GET, but only asks for meta information without the body.
 * POST - is used to post data to the server.
+* POST is a create request.
 * Typical use case for POST is to post form data to the server (like a checkout form).
 * PUT - is a request for the enclosed entity be stored at the supplied URI. If the entity exists, it is expected to be updated.
-* POST is a create request.
 * PUT is a create OR update request.
 * DELETE - Is a request to delete the specified resource.
 * TRACE - Will echo the received request. Can be used to see if request was altered by intermediate servers.
